@@ -6,7 +6,7 @@
  * Time: 3:16 PM
  */
 
-echo phpinfo();
+echo phpinfo();// WPCS: XSS OK
 
 
 
