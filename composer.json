@@ -1,0 +1,23 @@
+{
+  "name": "leadmax/billemV2",
+  "require": {
+    "php-curl-class/php-curl-class": "^8.0",
+    "vlucas/phpdotenv": "^2.4",
+    "phpunit/phpunit": "^7.0"
+  },
+  "authors": [
+    {
+      "name": "Joe Randazzo",
+      "email": "joe@leadmaxllc.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+"lib/config.php",
+"lib/functions.php"
+    ],
+    "classmap": [
+      "classes"
+    ]
+  }
+}

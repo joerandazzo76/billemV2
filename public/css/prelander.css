@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+.signup_form {
+	margin-top: 40px;
+}
+
+.signup_form label {
+	color: #525252;
+}
+
+.signup_form input {
+	border: 1px solid #e4e3e3;
+}
+
+.signup_form legend {
+	color: #525252;
+	font-size: 34px;
+}
+
+.signup_form legend span {
+	color: #fd569c;
+}
+
+.signup_form input[type="submit"] {
+	background: #59aeff;
+	color: #fff;
+	font-size: 16px;
+	padding: 8px 30px 8px;
+	text-transform: uppercase;
+	border: none;
+}
+
+.signup_form input[type="submit"]:hover {
+	background: #1e91ff;
+}

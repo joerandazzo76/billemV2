@@ -1,0 +1,684 @@
+@charset "UTF-8";
+
+* {
+	position: relative;
+}
+
+div {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.checkout_form {
+	font-family: tahoma, sans-serif;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.checkout_form .title {
+	margin-bottom: 40px;
+}
+
+.checkout_form .title h2 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.checkout_form .title h3 {
+	font-size: 22px;
+	margin-top: 20px;
+}
+
+.checkout_form .title h3 span {
+	color: #59aeff;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.checkout_form .content_wrap {
+	margin: 0;
+}
+
+.checkout_form .column_one > .row {
+	margin-right: 0;
+}
+
+.checkout_form .column_two legend {
+	font-size: 26px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+label.control-label {
+	font-size: 14px;
+}
+
+.form-control.year {
+	margin-top: 0px;
+}
+
+.custom-checkbox {
+	margin-left: 16px;
+}
+
+.custom-control-description a {
+	color: #d20200;
+}
+
+.custom-control-input:checked ~ .custom-control-indicator {
+	background: #d20200;
+	border: 1px solid #d20200;
+}
+
+.custom-control-indicator {
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, .15);
+}
+
+.checkout_form .submit p {
+	font-size: 12px;
+	color: #808080;
+	padding: 0 3%;
+}
+
+.checkout_form .description {
+	font-size: 12px;
+	color: #808080;
+	padding: 15px 5%;
+}
+
+.form-group button {
+	display: block;
+	width: 100%;
+	font-size: 24px;
+	background: #59aeff;
+	cursor: pointer;
+	border: none;
+}
+
+.form-group button:hover {
+	background: #1e91ff;
+}
+
+.checkout_form .card {
+	background: #f3f3f3;
+	padding: 40px 20px;
+	margin-bottom: 20px;
+	border: 1px solid #d20200;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.checkout_form .card.active {
+	color: #fff;
+	background: #d20200;
+	
+}
+
+.checkout_form .card:last-child {
+	margin-bottom: 0;
+}
+
+.checkout_form .card label {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.checkout_form .card p {
+	font-size: 20px;
+	color: #525251;
+	margin-bottom: 0;
+}
+
+.checkout_form .card.active p {
+	color: #fff;
+}
+
+.checkout_form .card input {
+	margin-right: 10px;
+}
+
+.checkout_form .card input:checked {
+	background: #fff;
+	border: 1px solid #fff;
+}
+
+.checkout_form .card h3 {
+	font-size: 45px;
+}
+
+.checkout_form .custom-control-description {
+	font-size: 14px;
+}
+
+.checkout_form .column {
+	background: #f9f9f9;
+	padding: 30px 20px;
+	border: 1px solid #59aeff;
+}
+
+.checkout_form .details p.gray {
+	color: #808080;
+}
+
+.checkout_form .details h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.checkout_form .details h2 {
+	font-weight: bold;
+	margin: 15px 0;
+}
+
+.checkout_form .details ul p {
+	font-size: 16px;
+	padding-left: 2%;
+}
+
+.checkout_form ul {
+	list-style: none;
+	text-align: left;
+	display: inline-block;
+	padding-left: 14%;
+}
+
+.checkout_form ul li {
+	font-size: 16px;
+	width: 100%;
+	display: inline-block;
+	padding-left: 24px;
+}
+
+.checkout_form ul li:before {
+	content: '';
+	background: url(../../old/1/images/checkmark.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 1px;
+	width: 26px;
+	height: 23px;
+	background-size: 100%;
+}
+
+.checkout_form ul li img {
+	width: 28px;
+}
+
+.checkout_form ul li p {
+	display: inline-block;
+}
+
+@media screen and (max-width: 991px) {
+	
+	.checkout_form .card label {
+		font-size: 16px;
+	}
+	
+	.checkout_form .card h3 {
+		font-size: 34px;
+	}
+	
+	.checkout_form .card p {
+		font-size: 14px;
+	}
+	
+	.checkout_form .card:last-child {
+		margin-bottom: 20px;
+	}
+	
+	.checkout_form .card {
+		padding: 40px 10px;
+	}
+	
+	.checkout_form .card input {
+		margin-right: 5px;
+	}
+	
+	.container {
+		max-width: 920px;
+	}
+	
+	.checkout_form .column_one {
+		padding-right: 0;
+	}
+	
+	.checkout_form ul {
+		padding-left: 8%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	
+	.checkout_form .content_wrap {
+		display: table !important;
+	}
+	
+	.checkout_form ul {
+		width: 300px;
+		float: none !important;
+		margin: 0 auto;
+		padding-left: 0;
+	}
+	
+	.checkout_form ul li {
+		font-size: 16px;
+	}
+	
+	.checkout_form ul li img {
+		float: none !important;
+		display: inline-block;
+	}
+	
+	.checkout_form ul li p {
+		float: none !important;
+		display: inline-block;
+	}
+	
+	.checkout_form .details {
+		text-align: center;
+		margin-bottom: 20px;
+		display: table-footer-group !important;
+	}
+	
+	.checkout_form .title h2 {
+		font-size: 30px;
+	}
+	
+	.checkout_form .title h3 {
+		font-size: 20px;
+	}
+	
+	.checkout_form .column_one, .checkout_form .column_two {
+		padding: 0;
+		margin-bottom: 20px;
+	}
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+.signup_form {
+	margin-top: 40px;
+}
+
+.signup_form label {
+	color: #525252;
+}
+
+.signup_form input {
+	border: 1px solid #e4e3e3;
+}
+
+.signup_form legend {
+	color: #525252;
+	font-size: 34px;
+}
+
+.signup_form legend span {
+	color: #fd569c;
+}
+
+.signup_form input[type="submit"] {
+	background: #59aeff;
+	color: #fff;
+	font-size: 16px;
+	padding: 8px 30px 8px;
+	text-transform: uppercase;
+	border: none;
+}
+
+.signup_form input[type="submit"]:hover {
+	background: #1e91ff;
+}
+
+@charset "UTF-8";
+
+* {
+	position: relative;
+}
+
+div {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.checkout_form {
+	font-family: tahoma, sans-serif;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.checkout_form .title {
+	margin-bottom: 40px;
+}
+
+.checkout_form .title h2 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.checkout_form .title h3 {
+	font-size: 22px;
+	margin-top: 20px;
+}
+
+.checkout_form .title h3 span {
+	color: #1f818e;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.checkout_form .content_wrap {
+	margin: 0;
+}
+
+.checkout_form .column_one > .row {
+	margin-right: 0;
+}
+
+.checkout_form .column_two legend {
+	font-size: 26px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+label.control-label {
+	font-size: 14px;
+}
+
+.form-control.year {
+
+}
+
+.custom-checkbox {
+	margin-left: 16px;
+}
+
+.custom-control-description a {
+	color: #d20200;
+}
+
+.custom-control-input:checked ~ .custom-control-indicator {
+	background: #d20200;
+	border: 1px solid #d20200;
+}
+
+.custom-control-indicator {
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, .15);
+}
+
+.checkout_form .submit p {
+	font-size: 12px;
+	color: #808080;
+	padding: 0 3%;
+}
+
+.checkout_form .description {
+	font-size: 12px;
+	color: #808080;
+	padding: 15px 5%;
+}
+
+.form-group button {
+	display: block;
+	width: 100%;
+	font-size: 24px;
+	background: #35ad85;
+	cursor: pointer;
+	border: none;
+}
+
+.form-group button:hover {
+	background: #278062;
+}
+
+.checkout_form .card {
+	background: #f3f3f3;
+	padding: 40px 20px;
+	margin-bottom: 20px;
+	border: 1px solid #d20200;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.checkout_form .card.active {
+	color: #fff;
+	background: #d20200;
+	
+}
+
+.checkout_form .card:last-child {
+	margin-bottom: 0;
+}
+
+.checkout_form .card label {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.checkout_form .card p {
+	font-size: 20px;
+	color: #525251;
+	margin-bottom: 0;
+}
+
+.checkout_form .card.active p {
+	color: #fff;
+}
+
+.checkout_form .card input {
+	margin-right: 10px;
+}
+
+.checkout_form .card input:checked {
+	background: #fff;
+	border: 1px solid #fff;
+}
+
+.checkout_form .card h3 {
+	font-size: 45px;
+}
+
+.checkout_form .custom-control-description {
+	font-size: 14px;
+}
+
+.checkout_form .column {
+	background: #f4f4f4;
+	padding: 30px 20px;
+	border: 1px solid #35ad85;
+}
+
+.checkout_form .details p.gray {
+	color: #808080;
+}
+
+.checkout_form .details h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.checkout_form .details h2 {
+	font-weight: bold;
+	margin: 15px 0;
+}
+
+.checkout_form .details ul p {
+	font-size: 16px;
+	padding-left: 2%;
+}
+
+.checkout_form ul {
+	list-style: none;
+	text-align: left;
+	display: inline-block;
+	padding-left: 14%;
+}
+
+.checkout_form ul li {
+	font-size: 16px;
+	width: 100%;
+	display: inline-block;
+	padding-left: 24px;
+}
+
+.checkout_form ul li:before {
+	content: '';
+	background: url(../../old/1/images/checkmark.jpg) no-repeat;
+	position: absolute;
+	left: 0;
+	top: 1px;
+	width: 26px;
+	height: 23px;
+	background-size: 100%;
+}
+
+.checkout_form ul li img {
+	width: 28px;
+}
+
+.checkout_form ul li p {
+	display: inline-block;
+}
+
+.success .heading_text {
+	color: #fd569c;
+	font-size: 48px;
+}
+
+.success .top_text p {
+	font-size: 18px;
+}
+
+.success .column {
+	padding: 10px;
+}
+
+.success .column .content_wrap {
+	border: 2px solid #fd569c;
+}
+
+.success .column .content_wrap p {
+	word-wrap: break-word;
+	margin: 0 0 5px;
+}
+
+.success .column .content_wrap h3 {
+	font-size: 20px;
+	border-bottom: 1px solid #fd569c;
+	margin: 0 0 15px;
+	padding: 10px;
+}
+
+.success .column .content_wrap .text_wrap {
+	padding: 0 10px 10px;
+}
+
+@media screen and (max-width: 991px) {
+	
+	.checkout_form .card label {
+		font-size: 16px;
+	}
+	
+	.checkout_form .card h3 {
+		font-size: 34px;
+	}
+	
+	.checkout_form .card p {
+		font-size: 14px;
+	}
+	
+	.checkout_form .card:last-child {
+		margin-bottom: 20px;
+	}
+	
+	.checkout_form .card {
+		padding: 40px 10px;
+	}
+	
+	.checkout_form .card input {
+		margin-right: 5px;
+	}
+	
+	.container {
+		max-width: 920px;
+	}
+	
+	.checkout_form .column_one {
+		padding-right: 0;
+	}
+	
+	.checkout_form ul {
+		padding-left: 8%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	
+	.checkout_form .content_wrap {
+		display: table !important;
+	}
+	
+	.checkout_form ul {
+		width: 300px;
+		float: none !important;
+		margin: 0 auto;
+		padding-left: 0;
+	}
+	
+	.checkout_form ul li {
+		font-size: 16px;
+	}
+	
+	.checkout_form ul li img {
+		float: none !important;
+		display: inline-block;
+	}
+	
+	.checkout_form ul li p {
+		float: none !important;
+		display: inline-block;
+	}
+	
+	.checkout_form .details {
+		text-align: center;
+		margin-bottom: 20px;
+		display: table-footer-group !important;
+	}
+	
+	.checkout_form .title h2 {
+		font-size: 30px;
+	}
+	
+	.checkout_form .title h3 {
+		font-size: 20px;
+	}
+	
+	.checkout_form .column_one, .checkout_form .column_two {
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	
+	.success .heading_text {
+		font-size: 34px;
+	}
+	
+	.success .top_text p {
+		font-size: 14px;
+	}
+	
+	.success .img-responsive {
+		width: 300px;
+		margin: 0 auto;
+	}
+}
